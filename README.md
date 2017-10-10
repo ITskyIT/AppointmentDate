@@ -3,8 +3,11 @@
 
 
 之前公司需要做一个在线预约的功能，在网上找了很多都不太合适，于是找了一个动手改了一下
-参考原作者链接：[点击我](http://fir.im/fr4e)<br>
-之前的原作者写的需求应该是酒店预订 多选 比较复杂，但是公司需求是单选，样式好看一点但功能比较简单
-#截图
+参考原作者链接：[点击我]https://github.com/henry-newbie/CalendarView<br>
+之前的原作者写的需求应该是酒店预订 多选 比较复杂，但是公司需求是单选，样式好看一点但功能比较简单<br>
+#截图<br>
 ![](screenshots/demo1.png)
 ![](screenshots/webj2.png)
+
+非常感谢
+[CalendarView]https://github.com/henry-newbie/CalendarView
