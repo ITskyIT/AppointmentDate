@@ -6,5 +6,5 @@
 参考原作者链接：https://github.com/henry-newbie/CalendarView<br>
 之前的原作者写的需求应该是酒店预订 多选 比较复杂，但是公司需求是单选，样式好看一点但功能比较简单 —_—<br>
 #截图<br>
-![](screenshots/demo1.png)
-![](screenshots/demo2.png)
+![](demo1.png)
+![](demo2.png)
