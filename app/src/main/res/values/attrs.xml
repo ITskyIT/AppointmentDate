@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CardViewPager">
+        <attr name="card_padding" format="integer"/>
+        <attr name="card_margin" format="integer"/>
+        <attr name="card_max_offset" format="integer"/>
+    </declare-styleable>
+</resources>

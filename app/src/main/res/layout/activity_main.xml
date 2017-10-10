@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:background="@mipmap/date_select_bg"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="25dp"
+            android:layout_height="45dp">
+            <RelativeLayout
+                android:id="@+id/app_back"
+                android:layout_width="45dp"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:layout_width="10dp"
+                    android:layout_height="18dp"
+                    android:layout_centerInParent="true"
+                    android:layout_marginLeft="14dp"
+                    android:layout_alignParentLeft="true"
+                    android:src="@drawable/bt_fanhui_nor" />
+            </RelativeLayout>
+            <TextView
+                android:text="拍摄日期"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:textColor="#ffffff"
+                android:textSize="18sp" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp">
+            <LinearLayout
+                android:layout_centerInParent="true"
+                android:layout_width="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:id="@+id/arrow_left"
+                    android:src="@mipmap/turn_left_off"
+                    android:layout_width="60dp"
+                    android:padding="15dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_height="match_parent" />
+                <TextView
+                    android:id="@+id/title_date"
+                    android:textSize="16sp"
+                    android:textColor="#ffffff"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <ImageView
+                    android:id="@+id/arrow_right"
+                    android:src="@mipmap/turn_right"
+                    android:layout_width="60dp"
+                    android:padding="15dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
+
+        </RelativeLayout>
+        <com.tian.appointmentdate.card.CardViewPager
+            android:id="@+id/viewPager"
+            android:layout_width="match_parent"
+            android:layout_height="350dp">
+
+        </com.tian.appointmentdate.card.CardViewPager>
+    </LinearLayout>
+    <TextView
+        android:textColor="#333"
+        android:textSize="20sp"
+        android:id="@+id/select_date"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>
+
+
